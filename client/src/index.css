@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* If you need custom theme variables in v4, do it like this */
+@theme {
+  --color-slate-950: #0f172a;
+  --color-slate-800: #1e293b;
+  --color-slate-700: #334155;
+}
+
+/* Force basic layout to ensure nothing is hidden */
+:root {
+  background-color: #0f172a;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
